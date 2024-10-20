@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { AddCategory } from './components/AddCategory';
-import { GifGrid } from './components/GifGrid';
+import { AddCategory, GifGrid } from './components';
+
 
 export const GifExpertApp = () => {
 
@@ -16,11 +16,10 @@ export const GifExpertApp = () => {
     }
 
 
-
   return (
     <>
         {/* Titulo */}
-        <h1>GifExpertApp</h1>
+        <h1>GifExpert App</h1>
 
         {/* Input */}
         < AddCategory 
@@ -39,10 +38,8 @@ export const GifExpertApp = () => {
               />
           ) ) 
         }
-
             {/* <li>XYZ</li> */}
       
-
          {/* Gif Item */}
 
     </>
